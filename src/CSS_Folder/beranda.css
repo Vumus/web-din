@@ -1,0 +1,34 @@
+.header-logo {
+  width: 70px;
+  max-height: auto;
+  flex: 1;
+  aspect-ratio: 1.5;
+  resize: both;
+  padding-right: 5px;
+}
+
+.text-header {
+  display: flex;
+  color: white;
+}
+
+.kontainer {
+  display: flex;
+}
+
+.kontainer #togglenav {
+  background: #256D85;
+}
+
+.navbar-default {
+  background: linear-gradient(#231955, #1F4690);
+  display: flex;
+}
+
+.me-auto #navlink {
+  color: white;
+}
+
+.me-auto #navlinkch {
+  color: black;
+}

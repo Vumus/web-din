@@ -1,0 +1,94 @@
+.berita-header {
+  display: flex;
+  margin: 20px;
+  font-size: 3rem;
+  justify-content: center;
+  color: black;
+  border: 5px black;
+  border-radius: 20px;
+}
+
+.news-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-news {
+  margin: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+  height: auto;
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 5px 6px grey;
+  border-radius: 10px;
+}
+
+.berita-card-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 3rem;
+  box-shadow: 2px 5px 6px grey;
+}
+
+.card-news:hover {
+  transform: scale(1.03);
+  transition: 200ms;
+}
+
+.card-body {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.berita-card-image-det {
+  padding: 10px;
+  max-width: 70%;
+  height: auto;
+  align-content: center;
+}
+
+.berita-card-text {
+  margin: 10px;
+  color: black;
+  text-align: justify;
+  font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+  .card-news {
+    margin: 10px;
+    align-items: center;
+    width: 35rem;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 5px 6px grey;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .card-news {
+    margin: 10px;
+    align-items: center;
+    width: 20rem;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    box-shadow: 2px 5px 6px grey;
+  }
+}

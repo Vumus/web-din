@@ -1,0 +1,119 @@
+.galeri-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    background: linear-gradient(#293462, #003865);
+    width: 100%;
+    height: 100%;
+}
+
+.galeri-full-bg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.galeri-card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: auto;
+    box-shadow: 2px 5px 6px grey;
+    border-radius: 10px;
+}
+
+.galeri-card:hover {
+    scale: 1.05;
+    transition: 200ms;
+}
+
+.body-galeri-card {
+    width: 270px;
+    height: auto;
+}
+
+.galeri-header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+.galeri-header-page {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.galeri-full-page {
+    display: flex;
+    width: 500px;
+    height: 30rem;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+  }
+
+.Baris {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-full-card {
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+}
+
+.video-full-page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.video-full-title {
+    color: white;
+}
+
+@media screen and (max-width : 900px) {
+    .galeri-card {
+      margin: 10px;
+      align-items: center;
+      width: 35rem;
+      height: auto;
+      text-decoration: none;
+      color: black;
+      box-shadow: 2px 5px 6px grey;
+    }
+  }
+  
+  @media screen and (max-width : 720px) {
+    .galeri-card {
+      margin: 10px;
+      align-items: center;
+      width: 30rem;
+      height: auto;
+      text-decoration: none;
+      color: black;
+      box-shadow: 2px 5px 6px grey;
+    }
+  }

@@ -1,0 +1,37 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-items {
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.doc {
+    display: flex
+}
+
+.item1 {
+    width: 20%;
+    height: auto;
+    background-color: #003865 ;
+}
+
+.item2 {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width : 900px) {
+    .doc {
+        display: none;
+    }
+  }
+
